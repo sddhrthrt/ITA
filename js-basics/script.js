@@ -1,4 +1,3 @@
-
 function updateClock(){
 	var time = getDate();
 	timer = document.getElementById("clock");
@@ -46,12 +45,15 @@ function fib(){
 }
 function clearfib(){
 	var answer = document.getElementById("ans");
-
 	answer.innerHTML="";
+	var box = document.getElementById("num");
+	box.value="";
 }
 function clearwords(){
 	var answer = document.getElementById("ans_words");
+	var box = document.getElementById("sentence");
 	answer.innerHTML="";
+	box.value="";
 }
 
 function getDate(){
