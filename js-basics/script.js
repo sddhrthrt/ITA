@@ -25,6 +25,9 @@ function fib(){
 	var num = document.getElementById("num");
 	index = num.value;
 	var answer = document.getElementById("ans");
+	if(!Boolean(parseInt(index))){
+		answer.innerHTML = "enter a valid number please!";
+	}
 	if(index > 20){
 		answer.innerHTML = "i can only process 20 :(";
 		return;
@@ -77,13 +80,17 @@ var today = curHour + ":" + curMinute + "." + curSeconds + curMeridiem + ", " + 
 function runLoop(){
 	var num = document.getElementById("num_loop");
 	index = num.value;
+	var answer = document.getElementById("ans_loop");
+	if(!Boolean(parseInt(index))){
+		answer.innerHTML = "enter a valid number, please!";
+	}
 	var then = +new Date();
 	var count=0;
 	for(var i = 0; i< index; i++){
 		count+=1;
 	}
 	var now = +new Date();
-	var answer = document.getElementById("ans_loop");
+
 	answer.innerHTML="ran loop "+count+" times";
 	answer.innerHTML+="<br /><br />time taken: "+(now-then)+" milliseconds.";
 }
