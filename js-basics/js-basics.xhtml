@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+	 
+    <head> 
+        <link type="text/css" rel="stylesheet" href="style.css" />
+	<script src="script.js"></script>
+        <link href='http://fonts.googleapis.com/css?family=Nunito:400,700' rel='stylesheet' type='text/css' />
+        <link href='http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css' />
+        <title>javascript basics</title>
+    </head>
+    <body onload="updateClock(); setInterval('updateClock()', 1000)">
+       <div class="body" >
+           <div class="title">
+		javascript basics <span id="clock"></span>
+           </div>
+		<div class="exercise interact" onclick="interact()">
+			<span id="alert" >click here to start.</span>
+		</div>
+		<div class="exercise fibonacci">
+			now we'll calculate fibonacci numbers. write how many numbers you want.
+			<input type="text" onkeyup="fib()" id="num" size="3"> </input>
+			<span onclick="clearfib()" >(clear)</span>
+			<div id="ans" class="answer"> </div>
+		</div>
+		<div class="exercise time">
+			<div id="timeparts"></div>
+			<br />
+			we'll run a loop a lot of times. how many times?
+			<input type="text" onkeyup="runLoop()" size="8" id="num_loop"> </input>
+			<div id="ans_loop" class="answer"> </div>
+		</div>
+		<div class="exercise sentence">
+			input a random sentence. we'll separate the words.
+			<span id="order" onclick="swap()">(ascending)</span><span onclick="swap()">&nbsp;(click to change)</span>
+			<br /> 
+			<input type="text" onkeyup="words()" size='100' id="sentence"> </input>
+			<span onclick="clearwords()">(clear)</span>
+			<div id="ans_words" class="answer"> </div>
+		</div>
+       </div>
+    </body>
+ 
+</html>
