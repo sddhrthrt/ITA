@@ -19,3 +19,13 @@ body{
 	margin-bottom: 10px;
 	border: 1px solid #999999;
 }
+td{
+    padding: 8px;
+    border: 1px solid #444444;
+}
+.err{
+    background-color: #441111;
+    color: #ff0000;
+    margin: 2px;
+    border: 1px solid #ffffff;
+}
