@@ -1,0 +1,21 @@
+body{
+   background: #EBECF5;
+	background-image: url(esch.png);
+   width: 960px;
+	color: #ffffff;
+   margin: 0 auto;
+   font-family: 'Droid Sans', sans-serif;
+}
+.title{
+   font-family: 'Nunito', sans-serif;
+   font-weight: 700;
+   font-size: 35px;
+   color: #ffffff;
+   margin-top: 40px;
+	margin-bottom: 40px;
+}
+.exercise{
+	padding: 20px;
+	margin-bottom: 10px;
+	border: 1px solid #999999;
+}
