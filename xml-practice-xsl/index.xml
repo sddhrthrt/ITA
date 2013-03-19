@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="index.xsl"?>
+<foodworld>
+    <worldname>
+        Foodworld!
+    </worldname>
+    <food>
+        <name> Pathrode </name>
+        <category> Main Dish </category>
+        <nutrition>
+            <carbohydrates> 100 </carbohydrates>
+            <fibre> 20 </fibre>
+            <fat> 8 </fat>
+            <energy> 80 </energy>
+        </nutrition>
+    </food>
+    <food>
+        <name> Buns </name>
+        <category>Snack</category>
+        <nutrition>
+            <carbohydrates> 30 </carbohydrates>
+            <fibre> 10 </fibre>
+            <fat> 10 </fat>
+            <energy> 40 </energy>
+        </nutrition>
+    </food>
+    <food>
+        <name> Goli Baje </name>
+        <category>Snack</category>
+        <nutrition>
+            <carbohydrates> 10 </carbohydrates>
+            <fibre> 14 </fibre>
+            <fat> 40 </fat>
+            <energy> 30</energy>
+        </nutrition>
+    </food>
+    <food>
+        <name> Neeru Dose </name>
+        <category> Main Dish </category>
+        <nutrition>
+            <carbohydrates> 20 </carbohydrates>
+            <fibre>40 </fibre>
+            <fat> 7 </fat>
+            <energy> 40</energy>
+        </nutrition>
+    </food>
+    <food>
+        <name> Kadubu </name>
+        <category> Main Dish </category>
+        <nutrition>
+            <carbohydrates> 60</carbohydrates>
+            <fibre> 40 </fibre>
+            <fat> 10 </fat>
+            <energy> 50</energy>
+        </nutrition>
+    </food>
+    <food>
+        <name> Rasayana </name>
+        <category>Dessert</category>
+        <nutrition>
+            <carbohydrates> 15 </carbohydrates>
+            <fibre> 20 </fibre>
+            <fat> 30 </fat>
+            <energy> 25 </energy>
+        </nutrition>
+    </food>
+    <food>
+        <name> Halbai </name>
+        <category>Dessert</category>
+        <nutrition>
+            <carbohydrates> 25 </carbohydrates>
+            <fibre> 12 </fibre>
+            <fat> 20 </fat>
+            <energy> 35 </energy>
+        </nutrition>
+    </food>
+</foodworld>
