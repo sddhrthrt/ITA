@@ -1,0 +1,70 @@
+concerts{
+    padding-top: 40px;
+   background: #EBECF5;
+	background-image: url(dark_wall.png);
+   width: 640px;
+	color: #ffffff;
+   margin: 0 auto;
+   font-family: 'Droid Sans', sans-serif;
+}
+/*.name{*/
+    /*display: block;*/
+   /*font-family: 'Nunito', sans-serif;*/
+   /*font-weight: 700;*/
+   /*font-size: 35px;*/
+   /*color: #ffffff;*/
+   /*margin-top: 40px;*/
+	/*margin-bottom: 40px;*/
+/*}*/
+ad{
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+	padding: 20px;
+	margin-bottom: 10px;
+	border: 1px solid #999999;
+}
+name {
+    margin-bottom: 10px;
+    font-size: 30px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    color: #3366ff;
+}
+genre {
+    font-size: 14px;
+    color: #8844ff;
+    display: block;
+}
+performer_info,  ticket_class, seller_info {
+    display: block;
+    margin-bottom: 5px;
+    /*font-size: 24px;*/
+    /*font-family: 'Nunito', sans-serif;*/
+}
+performer_info{
+    display: none;
+}
+ticket_class{ 
+    color: #ff8822;
+}
+performance{
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-size: 25px;
+    font-weight: 800;
+    color: #ff9933
+}
+performance > * {
+    display: none;
+}
+performance > venue {
+    display: inline;
+}
+seller_info > name, seller_info {
+    display: inline;
+    font-size: 14px;
+    font-weight: 800;
+    color: #6666ee;
+}
