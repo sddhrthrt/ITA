@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <!--<?xml-stylesheet type="text/css" href="style-xml.css"?>-->
-<?xml-stylesheet type="text/xsl" href="part2.xsl"?>
+<?xml-stylesheet type="text/xsl" href="index.xsl"?>
 <concerts 
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xsi:schemaLocation="part2.xsd"

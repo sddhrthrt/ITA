@@ -33,8 +33,8 @@
                         <tr><th > Name </th><th> Genre </th><th> Amount </th> </tr>
                         <xsl:for-each select="concert/ad">
                             <xsl:for-each select="ticket_class">
-                                <xsl:if test="cost<100">
-                                    hello
+                                <xsl:if test="cost&gt;100">
+                                    <tr><xsl:value-of select="cost" /></tr>
                                 </xsl:if>
                             </xsl:for-each>
                         </xsl:for-each>
